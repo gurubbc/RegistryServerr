@@ -1,0 +1,11 @@
+#tomcat port no
+server:
+  port: 4567
+
+#Eureka server details
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
